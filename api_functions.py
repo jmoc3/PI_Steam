@@ -95,8 +95,8 @@ def developer_reviews_analysis(developer:str):
   sentiments = df['sentiment'].value_counts()
   res = {
     developer:{
-      "Negative":sentiments.values[2], 
-      "Positive":sentiments.values[0]
+      "Negative":sentiments.values[2].item(), 
+      "Positive":sentiments.values[0].item()
     }
   }
   return res
