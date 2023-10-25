@@ -13,6 +13,9 @@
 
   - Realizar un Modelo de Machine learning que retorne una lista de 5 juegos similares a uno suministrado en un endpoint.
 
+    - **def game_recommendation( `product_id`: int):** Ingresando el id de producto, devuelve una lista con 5 juegos recomendados similares al ingresado.
+
+
      ###### PDT: Debido a la capacidad limite que tiene git para el tamaño de los archivos, los datasets que se trabajaron no se pudieron subir ya que tenian millones de registros, sin embargo google drive no posee los mismos problemas : [Archivos](https://drive.google.com/drive/folders/1kC1Wvr1krTd1S6-yIKwHvbZWdgorL9ul?usp=drive_link)
 
 ## Orden de ejecucion en caso de clonacion del repo
@@ -30,12 +33,12 @@
 
  Todos los servicios descritos que ofrece la api se encuentran disponibles actualmente en la nube gracias a [Render](https://render.com/), pueden encontrar la api yendo al siguiente link : [https://steam-api-v1hv.onrender.com/docs](https://steam-api-v1hv.onrender.com/docs). Algunos parametros de entrada que pueden utilizar para probar las funciones y ver sus respuestas son los siguiente:
 
- - *developer* : Valve, Days of Wonder
- - *user_data* : 54678907652, Shredderman962
- - *user_for_genre* : Adventure, Strategy
- - *best_developer_year* : 2012, 2013
- - *developer_reviews_analysis* : Re-Logic, Bohemia Interactive
- - *game_recommendation* : 431240 ('Golf With Your Friends'), 12110 ('Grand Theft Auto: Vice City')
+ - ***developer* :** Valve, Days of Wonder
+ - ***user_data* :** 54678907652, Shredderman962
+ - ***user_for_genre* :** Adventure, Strategy
+ - ***best_developer_year* :** 2012, 2013
+ - ***developer_reviews_analysis* :** Re-Logic, Bohemia Interactive
+ - ***game_recommendation* :** 431240 ('Golf With Your Friends'), 12110 ('Grand Theft Auto: Vice City')
 
   ## Tecnologias
 
