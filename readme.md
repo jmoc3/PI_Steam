@@ -26,6 +26,16 @@
   ~~~
   ***
 
+## Uso de la API 
+
+ Todos los servicios descritos que ofrece la api se encuentran disponibles actualmente en la nube gracias a [Render](https://render.com/), pueden encontrar la api yendo al siguiente link : [https://steam-api-v1hv.onrender.com/docs](https://steam-api-v1hv.onrender.com/docs). Algunos parametros de entrada que pueden utilizar para probar las funciones y ver sus respuestas son los siguiente:
+
+ - *developer* : Valve, Days of Wonder
+ - *user_data* : 54678907652, Shredderman962
+ - *user_for_genre* : Adventure, Strategy
+ - *best_developer_year* : 2012, 2013
+ - *developer_reviews_analysis* : Re-Logic, Bohemia Interactive
+
   ## Tecnologias
 
   - Python<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
