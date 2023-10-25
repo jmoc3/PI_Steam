@@ -17,7 +17,7 @@ def developer(developer:str):
   merge = pd.merge(free,items,on='release_date')
   for x in items.itertuples():
     if x.release_date in list(merge['release_date']):
-      free_content = round((merge.developer_x/merge.developer_y)*100,2).item()
+      free_content = round((merge[merge['release_date']==x.release_date]['developer_x']/x.developer)*100,2).item()
     else:
       free_content = 0
     
@@ -25,7 +25,6 @@ def developer(developer:str):
   res = {
     developer:rows
   }
-  
   return res
 
 def user_data(user_id:str):
