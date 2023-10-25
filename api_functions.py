@@ -14,16 +14,18 @@ def developer(developer:str):
   
   
   rows = []
-  for i,x in enumerate(items.itertuples()):
-    try:
-      free_content = round((free['developer'].iloc[i]/x.developer)*100,2)
-    except:
+  merge = pd.merge(free,items,on='release_date')
+  for x in items.itertuples():
+    if x.release_date in list(merge['release_date']):
+      free_content = round((merge.developer_x/merge.developer_y)*100,2).item()
+    else:
       free_content = 0
-
+    
     rows.append({"Año":x.release_date,"Cantidad de items":x.developer,"Contenido Free":f"{free_content}%"})
   res = {
     developer:rows
   }
+  
   return res
 
 def user_data(user_id:str):

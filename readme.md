@@ -1,4 +1,4 @@
-# Proyecto individual I - Recommendation Sistem
+# Proyecto individual I - Recommendation System
 
   Este proyecto es uno de los suministrados por el Bootcamp SoyHenry, basado en el contexto de ser un Data Scientist para la empresa Steam, cuyos requerimientos se constituyen en:
   - Realizar el respectivo tratamiento de datos junto a un analisis sentimental segun las criticas de los usuarios hacia los videojuegos.
@@ -15,10 +15,10 @@
 
      ###### PDT: Debido a la capacidad limite que tiene git para el tamaño de los archivos, los datasets que se trabajaron no se pudieron subir ya que tenian millones de registros, sin embargo google drive no posee los mismos problemas : [Archivos](https://drive.google.com/drive/folders/1kC1Wvr1krTd1S6-yIKwHvbZWdgorL9ul?usp=drive_link)
 
-## Orden de ejecucion
+## Orden de ejecucion en caso de clonacion del repo
 
-  1) **PI_MLOps**: Desarrollo del `EDA` donde se tratan datos duplicados, nulos y irrelevantes para un mayor rendimiento en el codigo, un mejor tratamiento de los datos y por supuesto una mejor lectura de los mismos.
-  2) **Recommendation_Sistem**: Realizacion de un `WebScraping` por videojuego para el contenido necesario que analizara el modelo mediante un `Content-Based Filtering` (Item-Item)
+  1) **PI**: Desarrollo del `EDA` donde se tratan datos duplicados, nulos y irrelevantes para un mayor rendimiento en el codigo, un mejor tratamiento de los datos y por supuesto una mejor lectura de los mismos.
+  2) **Recommendation_System**: Realizacion de un `WebScraping` por videojuego para el contenido necesario que analizara el modelo mediante un `Content-Based Filtering` (Item-Item)
   3) **main**: Archivo de la `API` donde se configuran las rutas http y se pone en marcha las funciones requeridas por la empresa. Para su uso clonar el repo, descargar la carpeta de los archivos, correr los notebooks y por ultimo ejecutar en la `terminal`:
   ***
   ~~~  
