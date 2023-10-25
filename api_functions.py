@@ -41,7 +41,7 @@ def user_data(user_id:str):
 
   res = {
     "Usuario X": user_id,
-    "Dinero gastado": money,
+    "Dinero gastado": round(money,2),
     "% de recomendacion": f"{round(recommendation,2)}%",
     "Cantidad de items": items
   }
