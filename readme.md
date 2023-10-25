@@ -42,7 +42,7 @@
   - Python<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
   - Pandas<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/225px-Pandas_mark.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
   - Numpy<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png" width=60 align="center" style="margin-left:10px" alt="Python icon">
-  - Requests<image src="https://nightdeveloper.net/wp-content/uploads/2014/03/requests-sidebar.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
+  - Requests<image src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Requests-logo.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
   - BeautifulSoup<image src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=80 align="center" style="margin-left:10px" alt="Python icon">
   - Nltk<image src="https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
   - Sklearn<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
