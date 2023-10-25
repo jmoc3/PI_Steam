@@ -91,7 +91,7 @@ def developer_reviews_analysis(developer:str):
   '''
   Devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un analisis de sentimiento como valor positivo o negativo.
   '''
-  df = all_dfs[all_dfs['developer']==developer]
+  df = all_dfs[all_dfs['developer']==developer].copy()
   sentiments = df['sentiment'].value_counts()
   res = {
     developer:{
