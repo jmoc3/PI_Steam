@@ -35,7 +35,7 @@
 
  - ***developer* :** Valve, Days of Wonder
  - ***user_data* :** 54678907652, Shredderman962
- - ***user_for_genre* :** Adventure, Strategy
+ - ***user_for_genre* :** Massively Multiplayer, Strategy
  - ***best_developer_year* :** 2012, 2013
  - ***developer_reviews_analysis* :** Re-Logic, Bohemia Interactive
  - ***game_recommendation* :** 431240 ('Golf With Your Friends'), 12110 ('Grand Theft Auto: Vice City')
