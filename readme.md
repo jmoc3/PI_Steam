@@ -16,11 +16,11 @@
     - **def game_recommendation( `product_id`: int):** Ingresando el id de producto, devuelve una lista con 5 juegos recomendados similares al ingresado.
 
 
-     ###### PDT: Debido a la capacidad limite que tiene git para el tamaño de los archivos, los datasets que se trabajaron no se pudieron subir ya que tenian millones de registros, sin embargo google drive no posee los mismos problemas : [Archivos](https://drive.google.com/drive/folders/1kC1Wvr1krTd1S6-yIKwHvbZWdgorL9ul?usp=drive_link)
+     ###### PDT: Debido a la capacidad limite que tiene git para el tamaño de los archivos, los datasets de origen no se pudieron subir ya que tenian millones de registros, sin embargo google drive no posee los mismos problemas : [Archivos](https://drive.google.com/drive/folders/1kC1Wvr1krTd1S6-yIKwHvbZWdgorL9ul?usp=drive_link)
 
 ## Orden de ejecucion en caso de clonacion del repo
 
-  1) **PI**: Desarrollo del `EDA` donde se tratan datos duplicados, nulos y irrelevantes para un mayor rendimiento en el codigo, un mejor tratamiento de los datos y por supuesto una mejor lectura de los mismos.
+  1) **PI**: Desarrollo del `ETL` donde se tratan datos duplicados, nulos y irrelevantes para un mayor rendimiento en el codigo, un mejor tratamiento de los datos y por supuesto una mejor lectura de los mismos.
   2) **Recommendation_System**: Realizacion de un `WebScraping` por videojuego para el contenido necesario que analizara el modelo mediante un `Content-Based Filtering` (Item-Item)
   3) **main**: Archivo de la `API` donde se configuran las rutas http y se pone en marcha las funciones requeridas por la empresa. Para su uso clonar el repo, descargar la carpeta de los archivos, correr los notebooks y por ultimo ejecutar en la `terminal`:
   ***
