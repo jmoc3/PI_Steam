@@ -20,7 +20,7 @@
 
 ## Orden de ejecucion en caso de clonacion del repo
 
-  1) **PI**: Desarrollo del `ETL` donde se tratan datos duplicados, nulos y irrelevantes para un mayor rendimiento en el codigo, un mejor tratamiento de los datos y por supuesto una mejor lectura de los mismos.
+  1) **PI**: Desarrollo del `ETL` y el `EDA` donde se tratan datos duplicados, nulos e irrelevantes y se grafican los datos generales ya limpios para un mejor entendimiento y tratamiento de los mismos.
   2) **Recommendation_System**: Realizacion de un `WebScraping` por videojuego para el contenido necesario que analizara el modelo mediante un `Content-Based Filtering` (Item-Item)
   3) **main**: Archivo de la `API` donde se configuran las rutas http y se pone en marcha las funciones requeridas por la empresa. Para su uso clonar el repo, descargar la carpeta de los archivos, correr los notebooks y por ultimo ejecutar en la `terminal`:
   ***
@@ -31,7 +31,7 @@
 
 ## Uso de la API 
 
- Todos los servicios descritos que ofrece la api se encuentran disponibles actualmente en la nube gracias a [Render](https://render.com/), pueden encontrar la api yendo al siguiente link : [https://steam-api-v1hv.onrender.com/docs](https://steam-api-v1hv.onrender.com/docs). Algunos parametros de entrada que pueden utilizar para probar las funciones y ver sus respuestas son los siguiente:
+ Todos los servicios descritos que ofrece la api se encuentran disponibles actualmente en la nube gracias a [Render](https://render.com/), pueden encontrar la api dirigiendose al siguiente link : [https://steam-api-v1hv.onrender.com/docs](https://steam-api-v1hv.onrender.com/docs). Algunos parametros de entrada que pueden utilizar para probar las funciones y ver sus respuestas son los siguiente:
 
  - ***developer* :** Valve, Days of Wonder
  - ***user_data* :** 54678907652, Shredderman962
@@ -43,13 +43,14 @@
   ## Tecnologias
 
   - Python<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
-  - Pandas<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/225px-Pandas_mark.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
-  - Numpy<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png" width=60 align="center" style="margin-left:10px" alt="Python icon">
-  - Requests<image src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Requests-logo.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
-  - BeautifulSoup<image src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=80 align="center" style="margin-left:10px" alt="Python icon">
-  - Nltk<image src="https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
-  - Sklearn<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
-  - FastAPI<image src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width=60 align="center" style="margin-left:10px" alt="Python icon">
-  - Conda<image src="https://docs.crc.nd.edu/_images/conda.png" width=50 align="center" style="margin-left:10px" alt="Python icon">
-  - Uvicorn<image src="https://www.uvicorn.org/uvicorn.png" width=20 align="center" style="margin-left:10px" alt="Python icon">
+  - Pandas<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/225px-Pandas_mark.svg.png" width=20 align="center" style="margin-left:10px" alt="Pandas icon">
+   - Matplotlib<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/2048px-Matplotlib_icon.svg.png" width=20 align="center" style="margin-left:10px" alt="Matplotlib icon">
+  - Numpy<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1200px-NumPy_logo_2020.svg.png" width=60 align="center" style="margin-left:10px" alt="Numpy icon">
+  - Requests<image src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Requests-logo.png" width=20 align="center" style="margin-left:10px" alt="Requests icon">
+  - BeautifulSoup<image src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=80 align="center" style="margin-left:10px" alt="Bs4 icon">
+  - Nltk<image src="https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png" width=20 align="center" style="margin-left:10px" alt="Nltk icon">
+  - Sklearn<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" width=20 align="center" style="margin-left:10px" alt="Sklearn icon">
+  - FastAPI<image src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width=60 align="center" style="margin-left:10px" alt="FastAPI icon">
+  - Conda<image src="https://docs.crc.nd.edu/_images/conda.png" width=50 align="center" style="margin-left:10px" alt="Conda icon">
+  - Uvicorn<image src="https://www.uvicorn.org/uvicorn.png" width=20 align="center" style="margin-left:10px" alt="Uvicorn icon">
 
